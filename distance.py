@@ -24,7 +24,7 @@ import math
 def distance(x, y):
     x = (x[0], x[1])
     y = (y[0], y[1])
-    return math.sqrt((x[0]-x[1])**2 + (y[0]-y[1])**2)
+    return math.sqrt((x[1]-x[0])**2 + (y[1]-y[0])**2)
 
 
 distance((5, 3), (4, 5))
